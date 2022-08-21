@@ -20,7 +20,7 @@ const shutdown = async () => {
     process.exit(1);
   }
 };
-global.SERVICE_NAME = "API-EXAMPLE";
+global.SERVICE_NAME = "projectName";
 global.redis = client;
 const EVENTS = [
   "EXAMPLE_EVENT",
