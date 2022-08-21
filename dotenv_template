@@ -1,4 +1,5 @@
 STREAM='example:stream'
+SERVICE_NAME='example-service'
 
 DATABASE_HOST=localhost
 DATABASE_PORT=5432
