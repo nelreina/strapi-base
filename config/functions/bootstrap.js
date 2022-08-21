@@ -4,11 +4,11 @@ const {
   newEventStreamService: EventStream,
 } = require("@nelreina/redis-stream-consumer-commonjs");
 
-
 const { client } = require("../../lib/redis-client");
 const { handler } = require("../../lib/redis-stream-handler");
 
 const STREAM = process.env["STREAM"];
+const SERVICE_NAME = process.env["SERVICE_NAME"];
 
 const shutdown = async () => {
   try {
@@ -20,16 +20,13 @@ const shutdown = async () => {
     process.exit(1);
   }
 };
-global.SERVICE_NAME = "projectName";
 global.redis = client;
-const EVENTS = [
-  "EXAMPLE_EVENT",
-]; // All events
+const EVENTS = ["EXAMPLE_EVENT"]; // All events
 
 module.exports = async () => {
   try {
     // Check missing unpaid declarations
- 
+
     if (!client.isOpen) await client.connect();
     if (client.isOpen) {
       strapi.log.info("Successfully connected to redis");
