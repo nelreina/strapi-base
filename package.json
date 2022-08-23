@@ -10,7 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@nelreina/redis-stream-consumer-commonjs": "^2.1.2",
+    "@nelreina/redis-stream-consumer-commonjs": "^2.1.3",
     "@nelreina/rest-client-commonjs": "^1.2.0",
     "@nelreina/xml-utils-commonjs": "^1.0.0",
     "axios": "^0.27.2",
