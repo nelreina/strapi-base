@@ -12,6 +12,7 @@
   "dependencies": {
     "@nelreina/redis-stream-consumer-commonjs": "^2.1.2",
     "@nelreina/rest-client-commonjs": "^1.2.0",
+    "@nelreina/xml-utils": "^1.0.0",
     "axios": "^0.27.2",
     "knex": "0.21.18",
     "pg": "^8.7.3",
