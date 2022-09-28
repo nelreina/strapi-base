@@ -14,8 +14,10 @@
     "@nelreina/rest-client-commonjs": "^1.2.0",
     "@nelreina/xml-utils-commonjs": "^1.0.0",
     "axios": "^0.27.2",
+    "json2csv": "^5.0.7",
     "knex": "0.21.18",
     "pg": "^8.7.3",
+    "stompit": "^1.0.0",
     "strapi": "3.6.10",
     "strapi-admin": "3.6.10",
     "strapi-connector-bookshelf": "3.6.10",
@@ -25,6 +27,7 @@
     "strapi-plugin-i18n": "3.6.10",
     "strapi-plugin-upload": "3.6.10",
     "strapi-plugin-users-permissions": "3.6.10",
+    "strapi-provider-email-smtp": "^1.0.3",
     "strapi-utils": "3.6.10"
   },
   "author": {
